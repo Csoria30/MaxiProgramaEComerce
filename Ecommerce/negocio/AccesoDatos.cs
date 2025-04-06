@@ -20,7 +20,7 @@ namespace negocio
 
         public AccesoDatos()
         {
-            string cadena = "server=.\\SQLEXPRESS; database=CATALOGO_DB; integrated security=true";
+            string cadena = "server=.\\SQLEXPRESS; database=CATALOGO_WEB_DB; integrated security=true";
             conexion = new SqlConnection(cadena);
             comando = new SqlCommand();
         }

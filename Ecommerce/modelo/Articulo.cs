@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace modelo
 {
-    internal class Articulo {
+    public class Articulo {
         public int Id { get; set; }
         public string CodigoArticulo { get; set; }
         public string Nombre { get; set; }
